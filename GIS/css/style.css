@@ -1,0 +1,64 @@
+.p {
+    background-image: linear-gradient(rgb(25, 183, 93), rgb(129, 140, 159));
+
+    min-height: 100vh;
+}
+.p2 {
+    background-image: linear-gradient(rgb(15, 142, 70), rgb(93, 105, 125));
+}
+.for {
+    height: 40vh;
+}
+
+.for2 {
+    height: 70vh;
+    
+}
+
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+#viewDiv {
+    border-radius: 5px;
+    min-height: 60vh;
+    width: 100%;
+}
+
+.admin1 {
+    background-image: url("../Images/image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.admin2 {
+    background-image: url("../Images/peope.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.admin3 {
+    background-image: url("../Images/dash2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@media (max-width: 576px) {
+    #background-video {
+        display: none;
+    }
+    body {
+        background: url("../Images/2.jpeg") no-repeat;
+        background-size: cover;
+    }
+    #viewDiv {
+        width: 500px;
+        height: 500px;
+    }
+}
